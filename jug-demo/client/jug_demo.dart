@@ -34,7 +34,7 @@ main() {
 //Timer timer;
 //toggleTimer() {
 //  if(timer == null) {
-//    timer =  new Timer.repeating(1000, tick); 
+//    timer =  new Timer.repeating(1000, (t) => tick()); 
 //  } else {
 //    timer.cancel();
 //    timer = null;
@@ -42,7 +42,7 @@ main() {
 //}
 
 // TODO 5
-//WebSocket webSocket = new WebSocket("ws://127.0.0.1:14912");
+//WebSocket webSocket = new WebSocket("ws://127.0.0.1:18912");
 //webSocket.on.message.add((MessageEvent e) {
 //  print('Message received: ${e.data}');
 //});

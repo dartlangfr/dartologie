@@ -22,13 +22,14 @@ class TickHandler {
   
   tick(var _timer) {
     counter++;
-    // TODO 5 Server side timer
+    send(counter.toString());
   }
   
   send(String value) {
     if(timer != null) {
       print("Send: $value");
-      connections.forEach((conn) => conn.send(value));
+      // TODO 5 Server side timer
+      connections.forEach((c) => c.send(value));
     }
   }
   
@@ -42,13 +43,12 @@ class TickHandler {
     print('New WebSocket connection');
     connections.add(conn);
     conn.onClosed = (status, reason) => connections.remove(conn);
-    conn.onError = (e) => connections.remove(conn);
   }
 }
 
 main() {
-  // 14 Septembre 2012 ! :p
-  var port = 14912;
+  // 18 Septembre 2012 ! :p
+  var port = 18912;
 
   HttpServer server = new HttpServer();
   server.onError = (error) => print(error);
