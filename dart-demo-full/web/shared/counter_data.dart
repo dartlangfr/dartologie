@@ -1,3 +1,5 @@
+part of dart_demo_shared;
+
 class CounterData {
   String id;
   var value;

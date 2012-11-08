@@ -1,7 +1,7 @@
-#library('jug-demo');
+library dart_demo;
 
-#import('dart:io');
-#import('dart:isolate');
+import 'dart:io';
+import 'dart:isolate';
 
 class TickHandler {
   int counter = 0;
@@ -47,8 +47,7 @@ class TickHandler {
 }
 
 main() {
-  // 18 Septembre 2012 ! :p
-  var port = 18912;
+  var port = 12345;
 
   HttpServer server = new HttpServer();
   server.onError = (error) => print(error);

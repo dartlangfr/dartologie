@@ -1,4 +1,4 @@
-#import("dart:html");
+import "dart:html";
 
 main() {
   // TODO 1 : Hello World!
@@ -16,7 +16,7 @@ main() {
 
 
 // TODO 1
-//get jugTitle => query("#jugTitle");
+//get dartTitle => query("#dartTitle");
 
 // TODO 2
 //get counterButton => query("#counterButton"); 
@@ -42,7 +42,7 @@ main() {
 //}
 
 // TODO 5
-//WebSocket webSocket = new WebSocket("ws://127.0.0.1:18912");
+//WebSocket webSocket = new WebSocket("ws://127.0.0.1:12345");
 //webSocket.on.message.add((MessageEvent e) {
 //  print('Message received: ${e.data}');
 //});

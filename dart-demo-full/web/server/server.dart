@@ -1,9 +1,9 @@
-#library('jug-demo');
+library dart_demo_server;
 
-#import('dart:io');
-#import('dart:isolate');
-#import('package:who_listen_me/who_listen_me.dart');
-#import('../shared/dartry.dart');
+import 'dart:io';
+import 'dart:isolate';
+import '../packages/who_listen_me/who_listen_me.dart';
+import '../shared/dartry.dart';
 
 typedef Future<int> callFollowers();
 
@@ -108,7 +108,6 @@ class TickHandler {
 }
 
 main() {
-  // 14 Septembre 2012 ! :p
   var port = 12345;
 
   HttpServer server = new HttpServer();

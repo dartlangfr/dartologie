@@ -4,6 +4,6 @@ description: >
   JUG Dart demo
 dependencies:
   who_listen_me:
-    git: git://github.com/dartlangfr/who_listen_me.git
+    git: https://github.com/dartlangfr/who_listen_me.git
   intl:
     sdk: intl
