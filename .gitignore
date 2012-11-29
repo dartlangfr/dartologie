@@ -1,4 +1,4 @@
 .project
 .children
-packages/
+packages
 pubspec.lock
