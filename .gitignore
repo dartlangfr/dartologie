@@ -2,3 +2,5 @@
 .children
 packages
 pubspec.lock
+dart-demo-full/web/client/*.js
+dart-demo-full/web/client/*.js*
