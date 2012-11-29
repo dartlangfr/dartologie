@@ -10,8 +10,8 @@ var buttonIds = const ["counterButton", "ggirouGplus", "ggirouTwitter", "nfranco
 
 void main() {
   //var date = new DateFormat("d MMMM yyyy", "fr_Fr").format(new Date.now());
-  String hello = "Hello Jug!";
-  query("#jugTitle").innerHTML = hello;
+  String hello = "Hello Dart!";
+  query("#dartTitle").innerHTML = hello;
   print(hello);
 
   int port = 12345;

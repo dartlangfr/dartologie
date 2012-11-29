@@ -1,4 +1,4 @@
-.jugTitle img {
+.dartTitle img {
   width: 64px;
   heigth: 64px;
   margin: 5px;
@@ -22,18 +22,18 @@
   text-align: center;
 }
 
-.jugTable {
+.dartTable {
   display: inline-table;
   position: relative;
 }
 
-.jugRow {
+.dartRow {
   display: table-row;
   position: relative;
   vertical-align: middle;
 }
 
-.jugCell {
+.dartCell {
   display: table-cell;
   position: relative;
   text-align: center;
