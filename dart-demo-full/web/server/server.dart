@@ -2,7 +2,8 @@ library dart_demo_server;
 
 import 'dart:io';
 import 'dart:isolate';
-import '../shared/dartry.dart';
+
+import 'package:dart_demo_full/shared.dart';
 import 'package:who_listen_me/who_listen_me.dart';
 
 typedef Future<int> callFollowers();

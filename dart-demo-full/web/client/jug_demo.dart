@@ -2,7 +2,7 @@ library dart_demo_client;
 
 import 'dart:html';
 import 'dart:isolate';
-import '../shared/dartry.dart';
+import 'package:dart_demo_full/shared.dart';
 
 WebSocket webSocket;
 
