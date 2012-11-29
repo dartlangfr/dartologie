@@ -1,7 +1,7 @@
-name: jug-demo-full 
+name: dart_demo_full 
 version: 1.0.0
 description: >
-  JUG Dart demo
+  Dart demo
 dependencies:
   who_listen_me:
     git: https://github.com/nfrancois/who_listen_me.git
